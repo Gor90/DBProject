@@ -69,4 +69,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </PostDeploy>
   </ItemGroup>
+  <ItemGroup>
+    <PreDeploy Include="PreDeploymentScript.sql" />
+  </ItemGroup>
 </Project>
