@@ -65,6 +65,8 @@
     <None Include="local.publish.xml" />
   </ItemGroup>
   <ItemGroup>
-    <PostDeploy Include="UpdateScript.sql" />
+    <PostDeploy Include="UpdateScript.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </PostDeploy>
   </ItemGroup>
 </Project>
