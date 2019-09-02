@@ -60,4 +60,7 @@
   <ItemGroup>
     <Build Include="Persons.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="local.publish.xml" />
+  </ItemGroup>
 </Project>
