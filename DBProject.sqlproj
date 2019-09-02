@@ -64,4 +64,7 @@
   <ItemGroup>
     <None Include="local.publish.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="UpdateScript.sql" />
+  </ItemGroup>
 </Project>
